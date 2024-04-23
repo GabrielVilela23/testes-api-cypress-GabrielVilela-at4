@@ -1,0 +1,19 @@
+{
+  "name": "testes-api-cypress-gabrielvilela",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:webb": "npx cypress open",
+    "cypress: headless": "npx cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.7.3",
+    "faker": "^6.6.6"
+  }
+}
